@@ -1,0 +1,185 @@
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: fit-content;
+    padding: 13px 10px 13px 40px ;
+    box-shadow: -7px -6px 16px 2px #6b7991;
+    z-index: 222;
+}
+.ft{
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+    cursor: pointer;
+}
+.ft img{
+    height: 40px;
+}
+.ft h2{
+    color: #012970;
+}
+.sd{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sd input{
+    width: 100%;
+    border: 2px solid #012970;
+    height: 29px;
+    border-radius: 5px;
+    text-indent: 5px ;
+}
+.sd input::placeholder{
+    color: #012970;
+}
+.sd span{
+    position: absolute;
+    right: 1%;
+    color: #012970;
+    font-size: 1.1rem;
+}
+.td{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 45%;
+}
+.td a{
+    color: #012970;
+    font-weight: 600;
+    text-decoration: none;
+}
+.td a:hover{
+    border-bottom: 3px solid #4473F4;
+
+}
+
+.fh , .ffh{
+    display: none;
+    color: #012970;
+    background-color: transparent;
+    border: none;
+}
+
+.notft{
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+    cursor: pointer;
+}
+.notft img{
+    height: 40px;
+}
+.notft h2{
+    color: #F3A735;
+}
+.notsd{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.notsd input{
+    width: 100%;
+    border: 2px solid #F3A735;
+    height: 29px;
+    border-radius: 5px;
+    text-indent: 5px ;
+}
+.notsd input::placeholder{
+    color: #F3A735;
+}
+.notsd span{
+    position: absolute;
+    right: 1%;
+    color: #F3A735;
+    font-size: 1.1rem;
+}
+.nottd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 45%;
+}
+.nottd a{
+    color: #F3A735;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nottd a:hover{
+    border-bottom: 3px solid #fff;
+
+}
+
+.notfh , .notffh{
+    display: none;
+    color: #F3A735;
+    background-color: transparent;
+    border: none;
+}
+@media (max-width :831px){
+    .fh{
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+    }
+    #close{
+        justify-content: center;
+    }
+    .td{
+        display: none;
+        flex-flow: column nowrap;
+        order: 9;
+        width: 30%;
+    }
+    .sd span{
+        right: 41%;
+    }
+    #td{
+        display: flex;
+    }
+    #tdd{
+        display: none;
+    }
+    .notfh{
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+    }
+    #notclose{
+        justify-content: center;
+    }
+    .nottd{
+        display: none;
+        flex-flow: column nowrap;
+        order: 9;
+        width: 30%;
+    }
+    .notsd span{
+        right: 41%;
+    }
+    #nottd{
+        display: flex;
+    }
+    #nottdd{
+        display: none;
+    }
+}
+@media (max-width :642px){
+    .sd span{
+        display: none;
+    }
+    .notsd span{
+        display: none;
+    }
+}

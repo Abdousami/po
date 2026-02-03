@@ -1,0 +1,149 @@
+#App{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap-reverse;
+    height:fit-content;
+    background-image: url(13.jpg);
+    padding: 100px 10px 0 40px ;
+}
+#notApp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap-reverse;
+    height:fit-content;
+    background-image: url(14.jpg);
+    padding: 100px 10px 0 40px ;
+}
+.Home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    height: fit-content;
+    padding: 100px 0;
+    gap: 20px;
+    width: 49vw;
+}
+.Home h1{
+    font-size: 3em;
+    max-width: 80%;
+    color: #012970;
+}
+.Home p{
+    max-width: 65%;
+    color: #012970;
+    font-weight: 400;
+    opacity: 65%;
+}
+.notHome {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    height: fit-content;
+    padding: 100px 0;
+    gap: 20px;
+    width: 49vw;
+}
+.notHome h1{
+    font-size: 3em;
+    max-width: 80%;
+    color: #F3A735;
+}
+.notHome p{
+    max-width: 65%;
+    color: #fff;
+    font-weight: 400;
+    opacity: 65%;
+}
+.btns{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #012970;
+    padding: 20px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+    box-shadow: 0px 1px 6px 0px #a7b6d1;
+    transition:  0.3s 0.1s background-color ease , 0.3s 0.4s color ease;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 550;
+    color: #012970;
+    box-shadow: 0px 1px 6px 0px #a7b6d1;
+    transition: 0.3s 0.1s background-color ease , 0.3s 0.4s color ease;
+    
+}
+.btn1:hover{
+    background-color: #fff;
+    color: #012970;
+}
+.btn2:hover{
+    background-color: #012970;
+    color: white;
+}
+.notbtn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3A735;
+    padding: 20px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+    box-shadow: 0px 1px 6px 0px #F3A735;
+    transition:  0.3s 0.1s background-color ease , 0.3s 0.4s color ease;
+}
+.notbtn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 550;
+    color: #F3A735;
+    box-shadow: 0px 1px 6px 0px #F3A735;
+    transition: 0.3s 0.1s background-color ease , 0.3s 0.4s color ease;
+    
+}
+.notbtn1:hover{
+    background-color: #fff;
+    color: #F3A735;
+}
+.notbtn2:hover{
+    background-color: #F3A735;
+    color: white;
+}
+.thatslider{
+    width: 45vw;
+}
+@media (max-width:1053px){
+    #App{
+        flex-flow: column-reverse nowrap;
+        align-items: center;
+    }
+    .Home , .thatslider{
+        width: 90vw;
+    }
+}

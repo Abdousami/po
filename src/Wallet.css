@@ -1,0 +1,79 @@
+.Walletitem img{
+    width: 80px;
+}
+.notWalletitem img{
+    width: 80px;
+}
+#Wallet{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 10vh;
+    padding: 40px 0px 20px 0px ;
+    height: fit-content;
+     
+}
+.h{
+    width: 100%;
+    color: #012985;
+    text-align: center;
+}
+.noth{
+    width: 100%;
+    color: #F3A735;
+    text-align: center;
+}
+.Wallet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+}
+.Walletitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 20px;
+    border:3px solid #012970;
+    width: 200px;
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s 0.1s scale ease , 0.3s 0.3s border ease;
+    margin-bottom: 10px;
+    box-shadow: -1px 2px 20px 4px #a7b6d1;
+}
+.Walletitem h3{
+    color: #012970;
+}
+.Walletitem:hover{
+    scale: 1.1;
+    border:3px solid  #4473F4;
+}
+.notWalletitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 20px;
+    border:3px solid #F3A735;
+    width: 200px;
+    height: 30vh;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s 0.1s scale ease , 0.3s 0.3s border ease;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 6px 0px #F3A735;
+}
+.notWalletitem h3{
+    color: #F3A735;
+}
+.notWalletitem:hover{
+    scale: 1.1;
+    border:3px solid  #fff;
+}

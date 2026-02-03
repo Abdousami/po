@@ -1,0 +1,39 @@
+.toggle{
+    width: fit-content;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    right: 0%;
+    bottom: 12%;
+    text-decoration: none;
+    z-index: 44;
+}
+.hh{
+    width: 100%;
+    color: #012985;
+    text-align: center;
+}
+.nothh{
+    width: 100%;
+    color: #F3A735;
+    text-align: center;
+}
+#clls{
+    color:#F5F6F7;
+    font-size: 2rem;
+    font-weight: 900;
+}
+#cls{
+    color: #012985;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.toggle .nones{
+    display: none;
+}
+.toggle .yes{
+    display: flex;
+}
